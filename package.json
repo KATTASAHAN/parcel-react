@@ -1,0 +1,28 @@
+{
+  "name": "namasthe-react",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "rm -rf .parcel-cache && rm -rf dist && parcel index.html",
+    "build": "rm -rf .parcel-cache && rm -rf dist && parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KATTASAHAN/test-namasthe-react.git"
+  },
+  "author": "Katta Sahan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KATTASAHAN/test-namasthe-react/issues"
+  },
+  "homepage": "https://github.com/KATTASAHAN/test-namasthe-react#readme",
+  "devDependencies": {
+    "parcel": "^2.10.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
